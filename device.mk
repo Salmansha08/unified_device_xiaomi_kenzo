@@ -325,9 +325,7 @@ PRODUCT_BOOT_JARS += \
     ims-ext-common_system
 
 # IPA Manager
-#PRODUCT_PACKAGES += \
-#    ipacm \
-#    IPACM_cfg.xml
+$(call inherit-product, $(LOCAL_PATH)/data-ipa-cfg-mgr/ipacm_vendor_product.mk)
 
 # IPC router config
 PRODUCT_COPY_FILES += \
