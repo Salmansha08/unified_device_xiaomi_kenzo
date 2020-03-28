@@ -229,6 +229,7 @@ TARGET_LD_SHIM_LIBS := \
     /system/lib64/lib-imsvideocodec.so|libshim_ims.so
 
 # SELinux
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 BOARD_SEPOLICY_VERS := 29.0
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
