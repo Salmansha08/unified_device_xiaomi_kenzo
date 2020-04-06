@@ -148,6 +148,7 @@ persist.media.treble_omx=false
 media.stagefright.thumbnail.prefer_hw_codecs=true
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+sys.display-size=1920x1080
 
 # NITZ
 persist.rild.nitz_plmn=
