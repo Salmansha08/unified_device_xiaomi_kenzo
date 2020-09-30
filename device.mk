@@ -595,3 +595,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
      persist.vendor.data.iwlan.enable=true \
      ro.telephony.iwlan_operation_mode=legacy
+     
+# DumpState
+PRODUCT_PACKAGES += \
+    android.hardware.dumpstate@1.1-service-kenzo
