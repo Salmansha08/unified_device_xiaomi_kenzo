@@ -20,6 +20,11 @@ DEVICE_PATH := device/xiaomi/kenzo
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 ALLOW_MISSING_DEPENDENCIES := true
 
+# We still use copy headers.
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -256,8 +261,6 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
 # Enable DRM plugins 64 bit compilation
 TARGET_ENABLE_MEDIADRM_64 := true
-
-BUILD_BROKEN_DUP_RULES := true
 
 TARGET_FLATTEN_APEX := true
 
