@@ -25,6 +25,7 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 ANCIENT_NOGAPPS := true
+TEMPORARY_DISABLE_PATH_RESTRICTIONS := true
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
