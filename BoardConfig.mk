@@ -230,8 +230,9 @@ TARGET_LD_SHIM_LIBS := \
 
 # SELinux
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
+TARGET_USES_QCOM_LEGACY_UM_SEPOLICY := true
 BOARD_SEPOLICY_VERS := 29.0
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
