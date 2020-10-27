@@ -586,4 +586,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
 hardware/qcom/audio \
 hardware/qcom/media \
-hardware/qcom/display
+hardware/qcom/display \
+device/xiaomi/kenzo/include
