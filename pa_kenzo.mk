@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/kenzo/device.mk)
 # Inherit some common AOSPA stuff.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 TARGET_USES_QCOM_BSP := true
+TARGET_DISABLES_GAPPS := true
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
