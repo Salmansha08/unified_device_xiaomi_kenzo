@@ -246,7 +246,9 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libgenlock \
     vendor.display.config@1.0 \
-    vendor.display.config@1.0_vendor
+    vendor.display.config@1.0_vendor \
+    libqdMetaData \
+    libqdMetaData.system \
 
 # DRM
 PRODUCT_PACKAGES += \
