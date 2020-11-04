@@ -918,7 +918,6 @@ vendor/lib/libqmi_cci.so|a921e84ec500f7cfb7fe88a4ffba149581410a44
 vendor/lib64/libqmi_cci.so|411a074dc765fb263bec50531ce5c408dd72388f
 
 # RIL - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
-product/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
