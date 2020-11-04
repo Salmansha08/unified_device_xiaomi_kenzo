@@ -914,7 +914,6 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 -framework/QtiTelephonyServicelibrary.jar
 -framework/qcrilhook.jar
--framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/netmgrd
 vendor/bin/qmuxd
@@ -960,9 +959,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
-
-# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
-product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
 
 # Radio - IMS
 -priv-app/ims/ims.apk|71b2daa01887c75301f8b73ad47317c29392d383
