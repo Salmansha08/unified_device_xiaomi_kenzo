@@ -20,15 +20,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kipper device
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
+# Inherit some common EvoX stuff
+WITH_GAPPS := false
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.evolution.build_maintainer=MocaRafee
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := aosp_kenzo
+PRODUCT_NAME := evolution_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
